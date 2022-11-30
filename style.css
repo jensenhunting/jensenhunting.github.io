@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+body{
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.text{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding-top: 24px;
+    box-shadow: 1px 0px 100px rgba(0, 0, 0, 0.25);
+    font-size: .95em;
+    order: 1;
+}
+
+h1{
+    font-family: "Calluna", serif;
+    font-weight: bold;
+    color: rgb(63, 112, 171);
+}
+
+span{
+    color: rgb(85, 97, 109);
+}
+
+.main-text{
+    padding: 16px;
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+}
+
+#main-div{
+    margin:0px;
+    padding: 0px;
+    max-width: 100%;
+}
+
+.splash{
+    padding: 0px;
+}
+
+.splash-img{
+    width: 100%;
+    height:300px;
+    background-image: url(img/profile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -80px;
+}
+
+.btn-primary{
+    background-color: rgba(67, 140, 208, 0) !important;
+    border-radius: 100px;
+    font-weight: bolder;
+    color: rgb(63, 112, 171);
+    transition: 0.75s;
+}
+
+.btn-primary:hover{
+    background-color: rgb(63, 112, 171) !important;
+    border-radius: 100px;
+    font-weight: bolder;
+    color:rgb(255, 255, 255);
+    transition: 0.75s;
+}
+
+
+.ux{
+    font-weight: bolder;
+    color: rgb(63, 112, 171);
+    transition: 0.75s;
+}
+
+.ux:hover{
+    background-color: rgb(63, 112, 171, .2) !important;
+    border-radius: 100px;
+    font-weight: bolder;
+    color: rgb(63, 112, 171);    
+    transition: 0.75s;
+
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.sci{
+    font-weight: bolder;
+    color: rgb(51, 128, 56);
+    transition: 0.75s;
+}
+
+.sci:hover{
+    background-color: rgb(49, 119, 54, .2) !important;
+    border-radius: 100px;
+    font-weight: bolder;
+    color: rgb(51, 128, 56);    
+    transition: 0.75s;
+
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+@media(min-width:768px){
+    .splash{
+        height: 100%;
+        position:fixed;
+            right: 0;
+            top: 0;
+        background-image: url(img/profile.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+
+        z-index: 1;
+    }
+
+    .splash-img{
+        background-image: none;
+    }
+
+    .text{
+        position: relative;
+            top: 40px;
+            left: 40px;
+        justify-content: start;
+        height:100%;
+        align-items: center;
+
+        z-index: 100;
+        background-color: white;
+        order: 0;
+    }
+}

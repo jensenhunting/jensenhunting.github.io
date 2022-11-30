@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+
+
+body{
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1, h2{
+    font-family: "Calluna", serif;
+    font-weight: bold;
+    color: rgb(63, 112, 171);
+}
+
+#header{
+    font-family: "Calluna", Serif !important;
+    font-weight: bold;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 40px;
+    gap: 0px;
+
+    position: sticky;
+    height: auto;
+    left: 0px;
+    top: 0px;
+
+    /* background-color: #F5F5F5; */
+    color: #252525;
+    /* box-shadow: 0px 1px 23px rgba(0, 0, 0, 0.25); */
+}
+
+.menus{
+    display: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#title, .title2{
+    color: rgb(63, 112, 171);
+
+    text-align: center;
+}
+
+#title{
+    display: none;
+}
+
+.title2{
+    align-items: center;
+
+}
+
+a:hover, .title2:hover, #title:hover{
+    color: rgb(63, 112, 171);
+    text-decoration: none;
+}
+
+.navmenu, .socials{
+    display: none;
+}
+
+#header:hover .menus{
+    display: block;
+    padding: 8px;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+#content{
+    margin: auto;
+    justify-content: center;
+}
+
+#block{
+    background-color: aqua;
+    margin: 8px;
+}
+
+/* media */
+
+@media(min-width:768px){
+    .navmenu, .socials{
+        display: flex;
+        gap: 8px;
+        flex-wrap:none;
+    }
+    .navmenu{
+        justify-content: right;
+    }
+
+    .menus{
+        display: hidden;
+    }
+    #header:hover .menus{
+        display: none;
+    }
+
+    #title{
+        display: block;
+    }
+
+    .title2{
+        display: none;
+    }
+}
+
+@media(min-width:992px){
+    
+}
