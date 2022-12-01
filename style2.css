@@ -92,7 +92,7 @@ a:hover, .title2:hover, #title:hover{
         gap: 8px;
         flex-wrap:none;
     }
-    .navmenu{
+    .socials{
         justify-content: right;
     }
 
