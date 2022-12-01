@@ -65,6 +65,24 @@ span{
     transition: 0.75s;
 }
 
+.btn-success{
+    background-color: rgba(51, 128, 56, 0) !important;
+    border-radius: 100px;
+    font-weight: bolder;
+    color: rgb(51, 128, 56);
+    transition: 0.75s;
+
+    scale: 0.8;
+}
+
+.btn-success:hover{
+    background-color: rgb(51, 128, 56) !important;
+    border-radius: 100px;
+    font-weight: bolder;
+    color:rgb(255, 255, 255);
+    transition: 0.75s;
+}
+
 
 .ux{
     font-weight: bolder;
@@ -72,7 +90,7 @@ span{
     transition: 0.75s;
 }
 
-.ux{
+.ux:hover{
     background-color: rgb(63, 112, 171, .2) !important;
     border-radius: 100px;
     font-weight: bolder;
@@ -81,16 +99,15 @@ span{
 
     padding-left: 8px;
     padding-right: 8px;
-    /* when you add the links in, change this to .ux:hover */
 }
 
 .sci{
     font-weight: bolder;
-    color: #338038;
+    color: rgb(51, 128, 56);
     transition: 0.75s;
 }
 
-.sci{
+.sci:hover{
     background-color: rgb(49, 119, 54, .2) !important;
     border-radius: 100px;
     font-weight: bolder;
@@ -99,7 +116,6 @@ span{
 
     padding-left: 8px;
     padding-right: 8px;
-    /* when you add the links in, change this to .sci:hover */
 }
 
 
