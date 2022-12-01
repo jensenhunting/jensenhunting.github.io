@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-
-
+@import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
 
 body{
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
 }
 
 h1, h2{
@@ -63,6 +62,23 @@ a:hover, .title2:hover, #title:hover{
     text-decoration: none;
 }
 
+.ux{
+    font-weight: bolder;
+    color: rgb(63, 112, 171);
+    transition: 0.75s;
+}
+
+.ux:hover{
+    background-color: rgb(63, 112, 171, .2) !important;
+    border-radius: 100px;
+    font-weight: bolder;
+    color: rgb(63, 112, 171);    
+    transition: 0.75s;
+
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
 .navmenu, .socials{
     display: none;
 }
@@ -80,8 +96,11 @@ a:hover, .title2:hover, #title:hover{
 }
 
 #block{
-    background-color: aqua;
-    margin: 8px;
+    text-align: center;
+    background-color: rgba(127, 185, 255, 0.1);
+    margin: auto;
+    padding: 8px;
+    padding-top: 16px;
 }
 
 /* media */
