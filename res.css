@@ -1,0 +1,23 @@
+#content{
+    padding: 16px;
+    background-color: rgb(211, 211, 211, 0.4);
+}
+
+
+
+.sci{
+    font-weight: bolder;
+    color: #338038;
+    transition: 0.75s;
+}
+
+.sci:hover{
+    background-color: rgb(49, 119, 54, .2) !important;
+    border-radius: 100px;
+    font-weight: bolder;
+    color: rgb(51, 128, 56);    
+    transition: 0.75s;
+
+    padding-left: 8px;
+    padding-right: 8px;
+}
